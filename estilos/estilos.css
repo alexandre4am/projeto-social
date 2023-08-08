@@ -3,6 +3,69 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#telefone {
+    height: 627px;
+    width: 311px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../imagens/frame-iphone.png") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -20,7 +83,7 @@ body {
 
     min-height: 70%;
     min-width: 32%;
-    /* background-color: lightgreen; */
+    /* background-color: lightgreen; 
     background-image: url('../imagens/frame-iphone.png');
     background-position: center top;
 	background-repeat: no-repeat;
@@ -66,4 +129,4 @@ a:hover {
 li > a > img:hover  {
     box-shadow: 5px 5px 5px black;
     transition: 0.3s;
-}
+} */
